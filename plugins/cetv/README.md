@@ -2,7 +2,7 @@
 
 Advertise on CETV's network of digital screens in break rooms and venues, from a conversation.
 
-- **Pick a package** — Starter, Growth, or Pro: a fixed number of plays across the network over 30 days.
+- **Pick a package** — each with its own price, number of plays across the network, and duration.
 - **Add your ad** — upload your JPG or PNG (1920×1080 landscape looks best) through a secure one-time upload link.
 - **Pay** — by card from a Stripe payment link (also emailed as an invoice), or with a promo code.
 - **Track it** — ask how your campaign is doing to see plays delivered, updated hourly.

@@ -11,7 +11,7 @@ If the CETV tools aren't available or report that sign-in is needed, ask the use
 
 ## 1. Packages and timing
 
-Call `list_packages` and present the packages in a short table: name, price, total plays, duration. Explain that plays are spread across CETV's screen network over the 30 days, and each ad plays for 15 seconds.
+Call `list_packages` and present the packages in a short table: name, price, total plays, duration. Explain that plays are spread across CETV's screen network over the package's duration (packages differ in length and terms — longer ones can be better value), and each ad plays for 15 seconds.
 
 Ask which package they want, and when it should start. The start date must be **after today in US Eastern time** — `list_packages` returns `today_us_eastern`; never offer today or an earlier date. Convert phrases like "next Monday" to `YYYY-MM-DD` and confirm the exact date back to them.
 
@@ -37,7 +37,7 @@ If they don't have an ad image yet, let them know they'll need one (a JPG or PNG
 
 Creating the campaign sends a **real invoice**, so always show a summary and get an explicit yes first:
 
-> **Business:** … · **Campaign:** … · **Package:** … ($…, … plays over 30 days) · **Starts:** … · **Ad:** (the image) · **Notifications to:** …
+> **Business:** … · **Campaign:** … · **Package:** … ($…, … plays over … days) · **Starts:** … · **Ad:** (the image) · **Notifications to:** …
 
 If they have a **promo code**, include it — a valid code makes the campaign free and no invoice is sent.
 

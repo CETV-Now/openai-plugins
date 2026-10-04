@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "cetv",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Advertise on CETV's network of digital screens in break rooms and venues: pick a package, upload your ad, pay by invoice, and track plays — all from a conversation.",
   "author": {
     "name": "CETV Now",
@@ -17,7 +17,7 @@
       "interface": {
         "displayName": "CETV Campaigns",
         "shortDescription": "Advertise on CETV's break-room and venue screens.",
-        "longDescription": "Create and track advertising campaigns on CETV's network of digital screens in break rooms and venues. Pick a package (a fixed number of plays over 30 days), upload your ad image, pay by card from a Stripe invoice link, and check how many plays your campaign has delivered.",
+        "longDescription": "Create and track advertising campaigns on CETV's network of digital screens in break rooms and venues. Pick a package (a set number of plays over its duration), upload your ad image, pay by card from a Stripe invoice link, and check how many plays your campaign has delivered.",
         "developerName": "CETV Now",
         "category": "Productivity",
         "capabilities": ["Read", "Write"],

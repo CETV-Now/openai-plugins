@@ -26,7 +26,7 @@ Call `list_campaigns`. If there's exactly one, use it. If there are several, sho
 Call `get_campaign_report` with the campaign id. Present:
 
 - **Plays so far:** `total_plays` of `package_plays` (as a percentage too).
-- **Pace:** compare progress to time elapsed in the 30-day window. Say whether it's on track, ahead, or behind — plays are paced evenly per day, so small day-to-day variation is normal.
+- **Pace:** compare progress to time elapsed between the start and end dates. Say whether it's on track, ahead, or behind — plays are paced evenly per day, so small day-to-day variation is normal.
 - **Daily plays:** the `daily` buckets as a short table or simple chart, most recent days last. Dates are CETV's broadcast days.
 - **Last updated:** `updated_at` — the report refreshes hourly. If `status` is `not_started`, explain that the first numbers appear within about an hour of the campaign going live.
 
