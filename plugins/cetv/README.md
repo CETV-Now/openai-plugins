@@ -19,4 +19,6 @@ Your CETV account is the same whether you use ChatGPT, Codex, or Claude — camp
 
 ## Support
 
-ads@cetvnow.com · https://cetvnow.com
+info@cetvnow.com · https://cetvnow.com
+
+Documentation: https://mcp.cetvnow.com/docs · Privacy notice: https://mcp.cetvnow.com/privacy

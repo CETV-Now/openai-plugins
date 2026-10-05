@@ -19,7 +19,7 @@ Call `list_campaigns`. If there's exactly one, use it. If there are several, sho
 | `pending` | Paid (or free with a promo code) and scheduled — it goes live on its start date. |
 | `active` | Running now. Show the report below. |
 | `delivered` | Finished — every play in the package has been delivered. Show the final report. |
-| anything else | Report it as-is and suggest contacting CETV support (ads@cetvnow.com) if it looks wrong. |
+| anything else | Report it as-is and suggest contacting CETV support (info@cetvnow.com) if it looks wrong. |
 
 ## 3. Plays report (active or delivered)
 

@@ -1,11 +1,11 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "cetv",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Advertise on CETV's network of digital screens in break rooms and venues: pick a package, upload your ad, pay by invoice, and track plays — all from a conversation.",
   "author": {
     "name": "CETV Now",
-    "email": "ads@cetvnow.com",
+    "email": "info@cetvnow.com",
     "url": "https://cetvnow.com"
   },
   "homepage": "https://cetvnow.com",
