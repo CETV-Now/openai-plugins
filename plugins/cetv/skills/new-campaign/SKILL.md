@@ -26,10 +26,11 @@ Collect:
 
 The ad is a single landscape **JPG or PNG** that the user provides; screens are 1920×1080, so a 16:9 image looks best.
 
-An image attached to the chat can't be passed to the CETV tools directly, so upload it one of two ways:
+An image attached to the chat can't be passed to the CETV tools directly.
 
-- **In a chat app** (ChatGPT on web, desktop, or mobile): call `create_upload_link`, give them the link, and tell them it works once and expires in 30 minutes. When they say they're done, call `check_upload`. If the status isn't `uploaded` yet, ask them to finish on the page; if it's `expired`, make a new link.
-- **Where you can run shell commands and the file is on disk** (e.g. Codex): call `get_upload_url` with the filename and `image/png` or `image/jpeg`, upload with the returned `curl` command (substituting the real path), and keep the returned `creative_url`. Check the file type first.
+**Use an upload link by default, in every app (Codex included):** call `create_upload_link`, give them the link, and tell them it works once and expires in 30 minutes. When they say they're done, call `check_upload`. If the status isn't `uploaded` yet, ask them to finish on the page; if it's `expired`, make a new link.
+
+Don't ask for a file path. Only if the user has already given you the path of the image on their computer, and you can run shell commands (e.g. Codex), upload it directly instead: call `get_upload_url` with the filename and `image/png` or `image/jpeg`, upload with the returned `curl` command (substituting the real path), and keep the returned `creative_url`. Check the file type first.
 
 If they don't have an ad image yet, let them know they'll need one (a JPG or PNG, ideally 1920×1080) and can come back once it's ready.
 
